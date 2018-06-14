@@ -1,0 +1,12 @@
+C:\Users\pedro\OneDrive\Documentos\Visual Studio 2017\Projects\Livraria\Livraria\bin\Debug\netcoreapp2.1\Livraria.deps.json
+C:\Users\pedro\OneDrive\Documentos\Visual Studio 2017\Projects\Livraria\Livraria\bin\Debug\netcoreapp2.1\Livraria.runtimeconfig.json
+C:\Users\pedro\OneDrive\Documentos\Visual Studio 2017\Projects\Livraria\Livraria\bin\Debug\netcoreapp2.1\Livraria.runtimeconfig.dev.json
+C:\Users\pedro\OneDrive\Documentos\Visual Studio 2017\Projects\Livraria\Livraria\bin\Debug\netcoreapp2.1\Livraria.dll
+C:\Users\pedro\OneDrive\Documentos\Visual Studio 2017\Projects\Livraria\Livraria\bin\Debug\netcoreapp2.1\Livraria.pdb
+C:\Users\pedro\OneDrive\Documentos\Visual Studio 2017\Projects\Livraria\Livraria\obj\Debug\netcoreapp2.1\Livraria.csproj.CoreCompileInputs.cache
+C:\Users\pedro\OneDrive\Documentos\Visual Studio 2017\Projects\Livraria\Livraria\obj\Debug\netcoreapp2.1\Livraria.AssemblyInfoInputs.cache
+C:\Users\pedro\OneDrive\Documentos\Visual Studio 2017\Projects\Livraria\Livraria\obj\Debug\netcoreapp2.1\Livraria.AssemblyInfo.cs
+C:\Users\pedro\OneDrive\Documentos\Visual Studio 2017\Projects\Livraria\Livraria\obj\Debug\netcoreapp2.1\Livraria.dll
+C:\Users\pedro\OneDrive\Documentos\Visual Studio 2017\Projects\Livraria\Livraria\obj\Debug\netcoreapp2.1\Livraria.pdb
+C:\Users\pedro\OneDrive\Documentos\Visual Studio 2017\Projects\Livraria\Livraria\obj\Debug\netcoreapp2.1\Livraria.csprojResolveAssemblyReference.cache
+C:\Users\pedro\OneDrive\Documentos\Visual Studio 2017\Projects\Livraria\Livraria\bin\Debug\netcoreapp2.1\Livraria.xml
