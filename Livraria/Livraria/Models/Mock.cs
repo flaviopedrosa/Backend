@@ -40,5 +40,17 @@ namespace Livraria.Models
             }
 
         };
+
+        public static IList<Comentario> Comentarios = new List<Comentario>
+        {
+        };
+
+        public static IList<CarrinhoCompra> CarrinhosDeCompras = new List<CarrinhoCompra>
+        {
+        };
+
+        public static IList<Pedido> Pedidos = new List<Pedido>
+        {
+        };
     }
 }

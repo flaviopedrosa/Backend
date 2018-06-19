@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 
+
 namespace Livraria.Models
 {
     public class LivrariaContext : DbContext
@@ -17,6 +18,26 @@ namespace Livraria.Models
 
                 //log.Info("Database migrated successfully.");
             }
+        }
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity<Livro>()
+                .HasKey(x => x.Isbn);
+                
+            modelBuilder.Entity<Autor>()
+                .HasKey(x => x.Id);
+
+            modelBuilder.Entity<Comentario>()
+                .HasKey(x => x.Id);
+
+            modelBuilder.Entity<CarrinhoCompra>()
+                .HasKey(x => x.Id);
+
+            modelBuilder.Entity<Pedido>()
+                .HasKey(x => x.Id);
+
+            modelBuilder.Entity<Entrega>()
+                .HasKey(x => x.Id);
         }
 
         public DbSet<Autor> Autores { get; set; }

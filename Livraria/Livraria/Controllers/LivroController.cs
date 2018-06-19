@@ -92,7 +92,7 @@ namespace Livraria.Controllers
 
         // POST api/<controller>
         /// <summary>
-        /// Cria um novo registro refernte à livro.
+        /// Cria um novo registro referente à livro.
         /// </summary>
         /// <param name="model">Modelo de Livro</param>
         /// <returns></returns>
@@ -127,11 +127,11 @@ namespace Livraria.Controllers
         [ProducesResponseType(404)]
         [ProducesResponseType(403)]
         [ProducesResponseType(500)]
-        public IActionResult Put(string isbn, [FromBody]Livro model)
+        public IActionResult Put([FromBody]Livro model)
         {
             try
             {
-                Mock.Livros.Remove(Mock.Livros.Where(x => x.Isbn == isbn).FirstOrDefault());
+                Mock.Livros.Remove(Mock.Livros.Where(x => x.Isbn == model.Isbn).FirstOrDefault());
                 Mock.Livros.Add(model);
                 
                 return StatusCode(200);

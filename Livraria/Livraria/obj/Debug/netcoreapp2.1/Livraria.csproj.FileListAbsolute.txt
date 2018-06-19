@@ -10,3 +10,6 @@ C:\Users\pedro\OneDrive\Documentos\Visual Studio 2017\Projects\Livraria\Livraria
 C:\Users\pedro\OneDrive\Documentos\Visual Studio 2017\Projects\Livraria\Livraria\obj\Debug\netcoreapp2.1\Livraria.pdb
 C:\Users\pedro\OneDrive\Documentos\Visual Studio 2017\Projects\Livraria\Livraria\obj\Debug\netcoreapp2.1\Livraria.csprojResolveAssemblyReference.cache
 C:\Users\pedro\OneDrive\Documentos\Visual Studio 2017\Projects\Livraria\Livraria\bin\Debug\netcoreapp2.1\Livraria.xml
+C:\Users\pedro\OneDrive\Documentos\Visual Studio 2017\Projects\Livraria\Livraria\obj\Debug\netcoreapp2.1\Livraria.RazorAssemblyInfo.cache
+C:\Users\pedro\OneDrive\Documentos\Visual Studio 2017\Projects\Livraria\Livraria\obj\Debug\netcoreapp2.1\Livraria.RazorAssemblyInfo.cs
+C:\Users\pedro\OneDrive\Documentos\Visual Studio 2017\Projects\Livraria\Livraria\obj\Debug\netcoreapp2.1\Livraria.RazorTargetAssemblyInfo.cache

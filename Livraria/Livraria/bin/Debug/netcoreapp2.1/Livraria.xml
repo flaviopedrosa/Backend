@@ -4,6 +4,42 @@
         <name>Livraria</name>
     </assembly>
     <members>
+        <member name="M:Livraria.Controllers.CarrinhoDeCompraController.Get(System.Guid)">
+            <summary>
+            Recupera detalhes de um carrinho de compras em especifico informado atraves da chave.
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Livraria.Controllers.CarrinhoDeCompraController.Post(System.Guid,Livraria.Models.Livro)">
+            <summary>
+            Adiciona um novo livro ao carrinho de compras
+            </summary>
+            <param name="model">Modelo de Livro</param>
+            <returns></returns>
+        </member>
+        <member name="M:Livraria.Controllers.CarrinhoDeCompraController.Delete(System.Guid,System.String)">
+            <summary>
+            Exclui um livro existente no carrinho de compras
+            </summary>
+            <param name="model">Modelo de Livro</param>
+            <returns></returns>
+        </member>
+        <member name="M:Livraria.Controllers.ComentarioController.Post(System.String,Livraria.Models.Comentario)">
+            <summary>
+            Adiciona um comentário a um determinado livro.
+            </summary>
+            <param name="model">Comentário</param>
+            <param name="isbn">Isbn do livro a receber o comentário</param>
+            <returns></returns>
+        </member>
+        <member name="M:Livraria.Controllers.ComentarioController.Get(System.String)">
+            <summary>
+            Adiciona um comentário a um determinado livro.
+            </summary>
+            <param name="isbn">Isbn do livro a receber o comentário</param>
+            <returns></returns>
+        </member>
         <member name="T:Livraria.Controllers.LivroController">
             <summary>
             Recurso para operações de livro
@@ -28,12 +64,12 @@
         </member>
         <member name="M:Livraria.Controllers.LivroController.Post(Livraria.Models.Livro)">
             <summary>
-            Cria um novo registro refernte à livro.
+            Cria um novo registro referente à livro.
             </summary>
             <param name="model">Modelo de Livro</param>
             <returns></returns>
         </member>
-        <member name="M:Livraria.Controllers.LivroController.Put(System.String,Livraria.Models.Livro)">
+        <member name="M:Livraria.Controllers.LivroController.Put(Livraria.Models.Livro)">
             <summary>
             Altera um livro previamente existente na base de dados.
             </summary>
@@ -43,6 +79,27 @@
         <member name="M:Livraria.Controllers.LivroController.Delete(System.String)">
             <summary>
             Exclui um livro previamente existente na base de dados.
+            </summary>
+            <param name="model">Modelo de Livro</param>
+            <returns></returns>
+        </member>
+        <member name="M:Livraria.Controllers.PedidoController.Get(System.Guid)">
+            <summary>
+            Recupera detalhes de um pedido em especifico informado atraves da chave.
+            </summary>
+            <param name="id"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Livraria.Controllers.PedidoController.Post(System.Guid,Livraria.Models.Livro)">
+            <summary>
+            Adiciona um novo livro ao pedido
+            </summary>
+            <param name="model">Modelo de Livro</param>
+            <returns></returns>
+        </member>
+        <member name="M:Livraria.Controllers.PedidoController.Delete(System.Guid,System.String)">
+            <summary>
+            Exclui um livro existente no pedido.
             </summary>
             <param name="model">Modelo de Livro</param>
             <returns></returns>
